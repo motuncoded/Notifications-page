@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Notifications page</title>
+
+    <script type="text/javascript" src="index.js">
+   
+ let d =new Date();
+ alert("today is " + d);
+
+  </script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+<div class="notification">
+  <h1>Notifications <span class="notice">3</span></h1>
+  <button   id="btn" class="read">Mark all as read</button>
+</div>
+<div class="notify">
+
+  <div class="flex unread noti ">
+<img src="/assets/images/avatar-mark-webber.webp" height="30px" width="30px"    alt="avatar-mark-webber"/>
+<div class="col">
+  <h2><span class="person">Mark Webber </span> reacted to your recent post <span class="bolder">  My first tournament today!</</span>
+  <span class="dot"></span></h2>
+ <p class="time"> 1m ago</p>
+</div>
+</div>
+
+  <div class="flex unread  noti " >
+<img src="/assets/images/avatar-angela-gray.webp" height="30px" width="30px"  alt="avatar-angela-gray"/>
+<div class="col">
+  
+<h2><span class="person">Angela Gray</span> followed you <span class="dot"></span> </h2>
+<p class="time">5m ago</p>
+  </div>
+</div>
+  <div class="flex unread noti">
+         <img src="/assets/images/avatar-jacob-thompson.webp" height="30px" width="30px"  alt="avatar-jacob-thompson"/>
+ 
+         <div class="col">
+    <h2><span class="person">Jacob Thompson</span> has joined your group <span class="bolder"> Chess Club</></span>  <span class="dot"></span></h2>
+    <p class="time">1 day ago</p>
+  </div>
+</div>
+  <div class="flex">
+  
+    <img src="/assets/images/avatar-rizky-hasanuddin.webp" height="30px" width="30px" alt="avatar-rizky-hasanuddin"/>
+
+ <div>
+    <div class="col ">
+    <h2 id="toggle"> <span class="person">Rizky Hasanuddin </span> sent you a private message</h2> 
+    <p class="time">5 days ago</p>
+    <p class="message"> Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+      I'm already having lots of fun and improving my game.
+    </p>
+ </div>
+ </div>
+
+  </div>
+
+  
+ 
+  
+    <div class="flex">
+
+   <img src="/assets/images/avatar-kimberly-smith.webp"  height="30px" width="30px"  alt="avatar-kimberly-smith"/>
+      <div class="col">
+      <h2><span class="person">Kimberly Smith </span>commented on your picture</h2>
+      <p class="time">1 week ago</p>
+      </div>
+     
+        <img src="/assets/images/image-chess.webp"class="picture" width="30px" height="40px"  alt=" image-chess"/>   
+    </div>
+ 
+
+  <div class="flex">
+<img src="/assets/images/avatar-nathan-peterson.webp" height="30px" width="30px"  alt="avatar-nathan-peterson"/>
+<div class="col">
+<h2><span class="person">Nathan Peterson </span>reacted to your recent </span>  <span class="bolder">  5 end-game strategies to increase your win rate
+</span></h2>
+<p class="time">2 weeks ago</p>
+  </div>
+  </div>
+  
+  <div class="flex">
+    
+<image src="/assets/images/avatar-anna-kim.webp" height="30px" width="30px"  alt="avatar-anna-kim"/>
+<div class="col">
+<h2><span class="person">Anna Kim </span>left the group <span class="bolder"> Chess Club</span> </span></h2>
+<p class="time">2 weeks ago</p>
+  </div>
+  <div
+</div>
+</main>
+  
+  <!--<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+
+    
+</body>
+</html>
