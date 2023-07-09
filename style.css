@@ -27,6 +27,15 @@ img{
     max-width: 100%;
     
 }
+
+body{
+background-color: var(--grayish-blue);
+min-height: 100vh;
+display: grid;
+place-items:center ;
+font-size: 16px;
+
+}
 .flex{
     display: flex;
     justify-items: flex-start;
@@ -46,14 +55,6 @@ padding-left: .5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-body{
-background-color: var(--grayish-blue);
-min-height: 100vh;
-display: grid;
-place-items:center ;
-font-size: 16px;
-
 }
 h1{
     font-size: 1rem;
@@ -75,7 +76,7 @@ h2{
 main{
     width: 630px;
     background-color: var(--white);
-    padding: 1rem 1rem;
+    padding: .75rem;
     border-radius: 1rem;
 
 }
@@ -90,7 +91,7 @@ main{
     place-content: center;
 }
 .noti{
-    
+    background-color: var(--white);
 }
 .notice{
     background-color: var(--blue);
@@ -99,12 +100,16 @@ main{
     border-radius: .25rem;
     font-size: .75rem;
 }
-.read{
+button{
     outline: none;
     border: none;
-    background-color: transparent;
     cursor: pointer;
+    background-color: var(--white);
 }
+button:active{
+    color: var(--secondary-dark-grayish-blue)
+}
+
 .person{
 color: var(--teritary-dark-blue);
 }
@@ -135,6 +140,14 @@ color: var(--teritary-dark-blue);
     padding: .25rem 0;
     color: var(--primary-dark-grayish-blue);
 }
+.hidden{
+    display: none;
+
+}
+.show{
+    display: block;
+}
+
 .message{
     color: var(--secondary-dark-grayish-blue);
     padding: .75rem;
@@ -146,5 +159,7 @@ color: var(--teritary-dark-blue);
 @media screen  and (max-width:500px){
     main{
         width: 350px;
+        margin: 1rem  0;
+
     }
 }

@@ -8,12 +8,8 @@
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Notifications page</title>
 
-    <script type="text/javascript" src="index.js">
    
- let d =new Date();
- alert("today is " + d);
 
-  </script>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -24,11 +20,11 @@
   <main>
 <div class="notification">
   <h1>Notifications <span class="notice">3</span></h1>
-  <button   id="btn" class="read">Mark all as read</button>
+  <button  id="btn" class="read">Mark all as read</button>
 </div>
 <div class="notify">
 
-  <div class="flex unread noti ">
+  <div class="flex unread read noti ">
 <img src="/assets/images/avatar-mark-webber.webp" height="30px" width="30px"    alt="avatar-mark-webber"/>
 <div class="col">
   <h2><span class="person">Mark Webber </span> reacted to your recent post <span class="bolder">  My first tournament today!</</span>
@@ -37,7 +33,7 @@
 </div>
 </div>
 
-  <div class="flex unread  noti " >
+  <div class="flex unread noti " >
 <img src="/assets/images/avatar-angela-gray.webp" height="30px" width="30px"  alt="avatar-angela-gray"/>
 <div class="col">
   
@@ -59,9 +55,9 @@
 
  <div>
     <div class="col ">
-    <h2 id="toggle"> <span class="person">Rizky Hasanuddin </span> sent you a private message</h2> 
-    <p class="time">5 days ago</p>
-    <p class="message"> Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+    <h2 class="heading"> <span class="person">Rizky Hasanuddin </span> sent you a private message</h2> 
+<p class="time">5 days ago</p>
+    <p class="message" "> Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
       I'm already having lots of fun and improving my game.
     </p>
  </div>
@@ -108,7 +104,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
-
+<script src="index.js"></script>
 
     
 </body>
