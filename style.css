@@ -133,6 +133,9 @@ color: var(--teritary-dark-blue);
     background-color: var(--red);
 
 }
+.undot{
+background-color: white;
+}
 .picture{
     margin-left: auto;
 }
@@ -147,6 +150,7 @@ color: var(--teritary-dark-blue);
 .show{
     display: block;
 }
+
 
 .message{
     color: var(--secondary-dark-grayish-blue);
